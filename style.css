@@ -88,4 +88,38 @@ nav img {
   display: flex;
   align-items: center;
   justify-content: center;
+  padding: 96px 0 0 0;
+}
+.section-1 img {
+  width: 90%;
+}
+/* section-2 */
+.section-2 {
+  padding: 96px 0;
+}
+.grid {
+  display: grid;
+}
+.grid-2-c {
+  grid-template-columns: repeat(2, max-content);
+  gap: 256px;
+  align-items: center;
+  justify-content: center;
+}
+.icon-s-2 {
+  width: 36px;
+}
+.box {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+.text-align {
+  gap: 8px;
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+}
+.text-align h2 {
+  font-size: 64px;
 }
