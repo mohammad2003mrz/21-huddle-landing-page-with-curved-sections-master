@@ -28,7 +28,10 @@
   --Very-Pale-Blue: hsl(207, 100%, 98%);
   --white: hsl(0, 0%, 100%);
 }
-
+body {
+  font-family: "Open Sans", sans-serif;
+  font-family: "Poppins", sans-serif;
+}
 /* header */
 header {
   width: 100%;
@@ -196,4 +199,73 @@ nav img {
   flex-direction: column;
   gap: 24px;
   padding: 128px 0;
+}
+
+/*  footer  */
+footer {
+  overflow: hidden;
+}
+.f-logo {
+  width: var(--size-175);
+}
+.continar-f {
+  height: 400px;
+  display: flex;
+  justify-content: space-between;
+  padding: 48px 128px;
+  margin-top: -10px;
+  background-color: var(--Very-Dark-Cyan);
+  color: var(--white);
+}
+.box-f-1 {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 25%;
+}
+.s-m-b {
+  margin-top: 56px;
+}
+.s-m-b a:not(:last-child) {
+  margin-right: 20px;
+}
+.s-m-b a {
+  height: 32px;
+  width: 32px;
+}
+.icon-s {
+  fill: var(--white);
+  transition: all 0.2s ease-in-out;
+}
+.icon-s:is(:hover, :active) {
+  fill: var(--Light-Pink);
+}
+.phone,
+.email {
+  display: flex;
+  gap: 12px;
+  color: var(--color-white);
+  font-weight: 400;
+}
+.box-f-2 {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  width: 40%;
+}
+#email-i {
+  padding: 12px 56px;
+  border-radius: 2px;
+  margin-right: 16px;
+}
+#button {
+  color: var(--white);
+  background-color: var(--Pink);
+  border: none;
+  transition: all 0.3s ease-in-out;
+  border-radius: 2px;
+  padding: 14px 24px;
+}
+#button:is(:hover) {
+  background-color: var(--Light-Pink);
 }
