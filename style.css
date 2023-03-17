@@ -175,3 +175,25 @@ nav img {
   width: 70%;
   text-align: start;
 }
+/*   section-4  */
+.section-4 a:is(:link, :visited) {
+  text-decoration: none;
+  color: var(--white);
+  background-color: var(--Pink);
+  padding: 24px 96px;
+  border-radius: 32px;
+  display: inline-block;
+  transition: all 0.3s ease-in-out;
+}
+.section-4 a:is(:hover, :active) {
+  background-color: var(--Light-Pink);
+}
+.section-4 {
+  width: 100;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 24px;
+  padding: 128px 0;
+}
